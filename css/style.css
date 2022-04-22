@@ -1,0 +1,219 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 51px;
+    width: 100%   ;
+    background-color: #212121;
+    position: fixed;
+    z-index: 1;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 13px 70px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu .menu_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 40px;
+}
+
+.subheader {
+    margin-top: 51px;
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+.subheader .subheader_text {
+    margin-top: 6px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.subheader .subheader_call {
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.subheader .subheader_telephone {
+    display: block;
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: right;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: 3px solid rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+}
+
+.promo {
+    padding-top: 67px;
+    min-height: 800px;
+    background: url(../img/2-layers.png) center center/ cover no-repeat;
+}
+
+.promo .promo_header {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 151px;
+
+}
+
+.promo .promo_subheader {
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.promo .promo_descr {
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 0 auto;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-top: 118px;
+
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: 3px solid rgba(0, 0, 0, 0.07);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+}
+
+.reasons {
+    min-height: 900px;
+}
+
+.reasons .black_btn {
+    margin: 0 auto;
+    margin-top: 71px;
+    padding-top: 4px;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reasons h2.reason {
+    margin-bottom: 0;
+    margin-top: 44px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reasons .reasons_circle {
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.reasons .reasons_img {
+    object-fit: none;
+}
+
+.reasons .reasons_text {
+    margin-left: 26px;
+    width: 341px;
+    height: 141px;
+    color: #202020;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: justifyLeft;
+}
+
+.reasons .reasons_text span {
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+
+}
+
+.item {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
